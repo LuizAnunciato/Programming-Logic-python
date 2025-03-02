@@ -1,6 +1,4 @@
-Exercícios de Lógica em Python
-
-Exercício 1
+"Exercício 1 - Faça um Programa que peça dois números e imprima a soma"
 
 n1 = int(input("Digite o valor de n1: "))
 n2 = int(input("Digite o valor de n2: "))

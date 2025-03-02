@@ -1,0 +1,29 @@
+Exercícios de Lógica em Python
+
+Exercício 3
+
+n1 = int(input("Digite o valor de n1: "))
+n2 = int(input("Digite o valor de n2: "))
+
+soma = (n1+n2)
+print("A soma dos dois números é: ",soma)
+
+Exercício 4
+
+b1 = float(input("Digite o valor da sua nota b1: "))
+b2 = float(input("Digite o valor da sua nota b2: "))
+b3 = float(input("Digite o valor da sua nota b3: "))
+b4 = float(input("Digite o valor da sua nota b3: "))
+
+media = (b1 + b2 + b3 + b4) / 4
+print(f"Sua média é {media}")
+
+Exercício 4
+
+metros = float(input("Digite o valor em (metros): "))
+conversao = (metros * 100)
+
+print(f"O valor de {metros} metros em centímetros é: {conversao} centímetros")
+
+Exercício 5
+

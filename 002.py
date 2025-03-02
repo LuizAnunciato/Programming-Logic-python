@@ -1,4 +1,4 @@
-Exercício 2
+"Exercício 2 - Faça um Programa que peça as 4 notas bimestrais e mostre a média"
 
 b1 = float(input("Digite o valor da sua nota b1: "))
 b2 = float(input("Digite o valor da sua nota b2: "))

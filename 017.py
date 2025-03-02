@@ -1,5 +1,5 @@
 """
-Faça um Programa que peça um valor e mostre na tela se o valor é
+Exercício 17 - Faça um Programa que peça um valor e mostre na tela se o valor é
 positivo ou negativo.
 """
 

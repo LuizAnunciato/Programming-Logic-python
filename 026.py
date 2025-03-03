@@ -1,5 +1,5 @@
 """
-"Exercício 26 -
+Exercício 26 -
 As Organizações Tabajara resolveram dar um aumento de salário aos seus
 colaboradores e lhe contrataram para desenvolver o programa que calculará os
 reajustes.

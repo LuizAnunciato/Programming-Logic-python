@@ -16,52 +16,16 @@ lado_a = int(input("Digite o valor do lado A: "))
 lado_b = int(input("Digite o valor do lado B: "))
 lado_c = int(input("Digite o valor do lado C: "))
 
+# Verifica se os lados formam um triângulo
+if (lado_a + lado_b > lado_c) and (lado_a + lado_c > lado_b) and (lado_b + lado_c > lado_a):
+    print("Esses elementos formam um triângulo.")
 
-#Condição de verificação dos triângulos
-if (lado_a + lado_b) == lado_c:
-    print("Esses elementos formam um triângulo")
-elif (lado_a + lado_c == lado_b):
-    print("Esses elementos formam um triângulo")
-elif (lado_b + lado_a == lado_c):
-    print("Esses elementos formam um triângulo")
-elif (lado_b + lado_c == lado_a):
-    print("Esses elementos formam um triângulo")
-elif (lado_c + lado_a == lado_b):
-    print("Esses elementos formam um triângulo")
-elif (lado_c + lado_b == lado_a):
-    print("Esses elementos formam um triângulo")
+    # Classificação do triângulo
+    if lado_a == lado_b == lado_c:
+        print("Esse triângulo é Equilátero.")
+    elif lado_a == lado_b or lado_a == lado_c or lado_b == lado_c:
+        print("Esse triângulo é Isósceles.")
+    else:
+        print("Esse triângulo é Escaleno.")
 else:
-    print("Esses elementos não formam um triângulo")
-
-print()
-
-tipo_triangulo = ''
-
-#Tipagem dos triângulos: Equilátero
-tipo_triangulo_equilatero = (
-    lado_a + lado_b == lado_c and
-    lado_a + lado_c == lado_b and
-    lado_b + lado_a == lado_c and
-    lado_b + lado_c == lado_a and
-    lado_c + lado_a == lado_b and
-    lado_c + lado_b == lado_a
-)
-
-#Tipagem dos triângulos: Isósceles:
-tipo_triangulo_isosceles = (
-    lado_a == lado_b and 
-    lado_b == lado_c and
-    lado_c == lado_a
-)
-
-#Tipagem dos triângulos: Escaleno
-tipo_triangulo_escaleno = (
-    lado_a != lado_b != lado_c 
-)
-
-if tipo_triangulo == tipo_triangulo_equilatero:
-    print("Esse triângulo é do tipo Equilátero")
-elif tipo_triangulo == tipo_triangulo_isosceles:
-    print("Esse triângulo é do tipo Isósceles")
-else:
-    print("Esse triângulo é do tipo Escaleno")
+    print("Esses elementos não formam um triângulo.")

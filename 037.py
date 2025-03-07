@@ -21,7 +21,7 @@ operacao = {
 if operacao_escolhida in operacao and operacao_escolhida == '+':
     calculo = operacao['+']
     print("Resultado: ")
-    print(f"{numero_1} + {numero_2} = ",calculo)
+    print(f"{numero_1} + {numero_2} = {calculo:.2f}")
     print()
     print("Informações específicas sobre o resultado:")
 
@@ -46,7 +46,7 @@ if operacao_escolhida in operacao and operacao_escolhida == '+':
 elif operacao_escolhida in operacao and operacao_escolhida == '-':
     calculo = operacao['-']
     print("Resultado:")
-    print(f"{numero_1} - {numero_2} = ",calculo)
+    print(f"{numero_1} - {numero_2} = {calculo:.2f}")
     print()
     print("Informações específicas sobre o resultado:")
 
@@ -71,7 +71,7 @@ elif operacao_escolhida in operacao and operacao_escolhida == '-':
 elif operacao_escolhida in operacao and operacao_escolhida == '*':
     calculo = operacao['*']
     print("Resultado:")
-    print(f"{numero_1} * {numero_2} = ",calculo)
+    print(f"{numero_1} * {numero_2} = {calculo:.2f}")
     print()
     print("Informações específicas sobre o resultado:")
 
@@ -96,7 +96,7 @@ elif operacao_escolhida in operacao and operacao_escolhida == '*':
 elif operacao_escolhida in operacao and operacao_escolhida == '/':
     calculo = operacao['/']
     print("Resultado:")
-    print(f"{numero_1} / {numero_2} = ",calculo)
+    print(f"{numero_1} / {numero_2} = {calculo:.2f}")
     print()
     print("Informações específicas sobre o resultado:")
 

@@ -1,4 +1,4 @@
 """
-Exercício 56 - A série de Fibonacci é formada pela seqüência 1,1,2,3,5,8,13,21,34,55,...
-Faça um programa capaz de gerar a série até o n−ésimo termo.
+Exercício 56 - Faça um programa que calcule o fatorial de um número inteiro fornecido pelo
+usuário. Ex.: 5!=5.4.3.2.1=120
 """

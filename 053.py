@@ -10,3 +10,9 @@ A saída deve ser conforme o exemplo abaixo:
     5 X 10 = 50
 """
 
+numero = int(input("Digite o número para tabuada: "))
+print()
+
+for i in range(1,11):
+    tabuada = numero * i
+    print(f"{numero} x {i} = {tabuada}")

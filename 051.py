@@ -15,7 +15,7 @@ for i in range(numero_1,numero_2 +1):
 intervalo.pop(0)
 intervalo.pop()
 
-print(intervalo)
+print(O intervalos dos números é: ",intervalo)
 
 
 
